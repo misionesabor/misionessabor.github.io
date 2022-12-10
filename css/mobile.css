@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 100px) and (max-width: 389px){
+    body {
+        background-color: lightgreen;
+    }
+}
+@media (min-width: 390px) and (max-width: 575px){
+
+    /*===========   HEADER  ===================*/
+
+    /*===========    MAIN   ===================*/
+
+    /*===========   FOOTER  ===================*/
+    #foot-div {
+        background-color: black
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    body {
+        background-color: red;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    body {
+        background-color: gray;
+    }
+}
