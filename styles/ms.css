@@ -1,0 +1,225 @@
+/*--------------------------------------*/
+/*------------    HTML TAGS   ----------*/
+/*--------------------------------------*/
+body {
+  font-family: 'Poppins', sans-serif!important;
+  margin: 0;
+  padding: 0;
+}
+/*--------------------------------------*/
+/*------------ GLOBAL SCREEN  ----------*/
+/*--------------------------------------*/
+.ms-main {
+  margin-bottom: 6rem;
+}
+/*+++++++++ BANNER +++++++++*/
+.banner-intro {
+    background-color: #00000038;
+    padding: 0;
+    align-items: unset!important;
+}
+.banner-tbox {
+    max-width: 100%!important;
+    text-align: left!important;
+    background-color: transparent!important;
+    width: 100%!important;
+}
+.banner-tbox a {
+    text-decoration: none;
+}
+.banner-th3 {
+    margin: 0;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-tbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.banner-tbtn-p {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-right: 20px;
+}
+/*++++++ POLICY PAGES ++++++*/
+  .shopify-policy__container {
+    width: 100%!important;
+    max-width: 100%!important;
+    padding: 0;
+  }
+  .shopify-policy__title {
+    text-align: left;
+  }
+  .shopify-policy__title h1 {
+    text-transform: uppercase;
+    margin: 5rem 0 2.5rem 0;
+  }
+  .shopify-policy__body {
+    border-top: 3px solid black;
+    padding: 5rem 0 0 0;
+  }
+  .ms-poly-title {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .ms-poly-p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: calc(1 + 0.8 / var(--font-body-scale));
+    margin: 15px 0;
+  }
+  .ms-poly-margin {
+    padding: 1rem 0;
+  }
+  .ms-poly-italic {
+    font-style: italic;
+  }
+  .ms-poly-dropcontent {
+    display: flex;
+    align-items: center;
+  }
+  .ms-poly-dropcontent i {
+    font-size: 20px;
+    color: black;
+    padding-right: 20px;
+  }
+  .ms-poly-content {
+    display: none;
+    overflow: hidden;
+  }
+  .collapsible {
+    background-color: #F2F2F2;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: block;
+  }
+  .active, .collapsible:hover {
+    background-color: #E0F8EC;
+  }
+  .content {
+    padding: 10px 20px;
+    display: none;
+    overflow: hidden;
+    background-color: #F0F0F0;
+  } 
+/*+++++++++ ABOUT US +++++++++*/
+#ms-about-h1, #ms-about-h2 {
+  text-transform: uppercase;
+}
+/*++++++ WHOLESALE ++++++*/
+  #ms-wholesale-banner{
+      width: 100%;
+      background-image: url("https://cdn.shopify.com/s/files/1/0664/9744/6170/files/MS-BANNER-WHS-O2.jpg?v=1671630729");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+  #ms-wholesale-title{
+      padding-top: 15px;
+      border-top: 3px solid white;
+      position: absolute;
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+  }
+  #ms-wholesale-title h1{
+    color: white!important;
+  }
+  #ms-wholesale-text{
+    width: 100%;
+    text-align: justify;
+  }
+  .ms-whs-p{
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      margin: 3rem 0;
+      letter-spacing: 0.06rem;
+      line-height: calc(1 + .8 / 1.0);
+  }
+  .ms-whs-p a {
+      text-decoration: none;
+      color: #088a68;
+  }
+  #ms-whs-work{
+      align-items: center;
+      background-color: #f4ece6;
+  }
+  #ms-whs-wh2{
+      font-family: "Poppins", sans-serif;
+      text-transform: uppercase;
+      margin: 0;
+  }
+  .ms-whs-wp{
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+  }
+  .ms-whs-wbtn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    color: black!important;
+  }
+  .ms-whs-wbtn span {
+    font-weight: 500;
+    padding-right: 2rem;
+    text-transform: uppercase;
+  }
+  .wp-1{
+      margin-bottom: 2rem;
+  }
+  #ms-whs-knowmore{
+      background-color: #088a68;
+  }
+  #ms-whs-kh2{
+      font-family: "Poppins", sans-serif;
+      text-align: left;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: white;
+  }
+  .ms-whs-kp{
+      font-family: "Poppins", sans-serif;
+      font-weight: 200;
+      line-height: 30px;
+      margin: 2rem 0;
+      color: white;
+  }
+  .ms-whs-kp a{
+      text-decoration: none;
+      color: white!important;
+  }
+  #ms-whs-kform{
+      margin: 4rem 0;
+  }
+  .ms-whs-fdiv{
+    background-color: transparent;
+  }
+  .ms-whs-fbtn{
+    background-color: white;
+    color: black;
+  }
+/*+++++++++ CONTACT +++++++++*/
+  #ms-contact-fh1, #ms-contact-fh2 {
+    text-transform: uppercase;
+  }
+  .ms-contact-fp a {
+    color: black;
+  }
+/*+++++++++ PRODUCTS +++++++++*/
+  .product__media-toggle, .product__modal-opener .product__media-icon {
+    display: none!important;
+  }
+/*--------------------------------------*/
+
+
