@@ -1,0 +1,24 @@
+/*+++++++++ ANNOUNCEMENT +++++++++*/
+#ms-announcement-bar {
+    padding: 0 4%;
+    text-align: center;
+    background-color: #088a68;
+}
+.ms-anbar-message {
+    padding: 0.5rem 0;
+    margin: 0;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 300;
+    color: white;
+}
+@media screen and (max-width: 991px){
+    .ms-anbar-message {
+        font-size: 10px;
+    }    
+}
+@media screen and (min-width: 992px){
+    .ms-anbar-message {
+        font-size: 12px;
+    }  
+}

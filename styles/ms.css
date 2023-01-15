@@ -104,9 +104,9 @@ body {
     font-size: 15px;
     display: block;
   }
-  .active, .collapsible:hover {
+  /* .active, .collapsible:hover {
     background-color: #E0F8EC;
-  }
+  } */
   .content {
     padding: 10px 20px;
     display: none;

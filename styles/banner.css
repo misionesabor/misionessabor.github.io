@@ -1,0 +1,17 @@
+
+.ms-main-banner {
+    height: 100vh;
+    width: auto;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 991px) {
+    .ms-main-banner-sect {
+        margin-bottom: 3rem;
+    }   
+}
+@media screen and (min-width: 992px) {
+    .ms-main-banner-sect {
+        margin-bottom: 5rem;
+    }
+}

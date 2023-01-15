@@ -1,0 +1,46 @@
+/*============= HEADER =============*/
+header {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar {
+    background-color: white;
+    width: inherit;
+    margin: 0;
+    padding: 0.8% 4%;
+}
+.cont-navbar {
+    padding: 0;
+}
+.navbar-toggler {
+    border: 1px solid rgb(240, 240, 240);
+}
+.navbar-toggler:focus {
+    box-shadow: none; 
+}
+.header-logo {
+    height: 65px;
+    width: auto;
+}
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        padding: 1rem 0;
+    }
+    .nav-link {
+        margin: 0.7rem 0!important;
+        padding: 0;
+        font-size: 13px;
+    }    
+}
+@media screen and (min-width: 992px) {
+    .nav-link {
+        font-size: 15px;
+        padding: 0 20px!important;
+    }    
+}
