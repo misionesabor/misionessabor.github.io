@@ -1,15 +1,33 @@
-
 .ms-main-banner {
     height: 100vh;
     width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: lightgray;
+}
+
+.ms-main-banner-divt {
+    margin-top: 3rem;
+    margin-left: 4%;
+    padding: 2rem 0;
+}
+
+.ms-main-banner-divt h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 100px;
+    color: white;
 }
 
 @media screen and (max-width: 991px) {
     .ms-main-banner-sect {
         margin-bottom: 3rem;
-    }   
+    }
 }
+
 @media screen and (min-width: 992px) {
     .ms-main-banner-sect {
         margin-bottom: 5rem;

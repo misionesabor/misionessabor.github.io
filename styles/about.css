@@ -1,0 +1,55 @@
+header{
+  position: relative;
+}
+
+#ms-about-h1, #ms-about-h2 {
+    text-transform: uppercase;
+  }
+
+  #ms-about-h1{
+    font-weight: 500;
+  }
+
+  #ms-about-h2{
+    font-weight: 700;
+  }
+
+  .ms-about-p{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+@media screen and (max-width: 991px){
+    /* Mobile */
+    #ms-about {
+        margin: 4rem 1.5rem;
+      }
+      #ms-about-h1 {
+        font-size: 20px;
+      }
+      #ms-about-h2 {
+        font-size: 40px;
+      }
+      .ms-about-p {
+        width: 100%;
+      }
+}
+
+@media screen and (min-width: 992px) {
+    /* Desktop */
+    #ms-about {
+        margin: 4rem 4%;
+      }
+      #ms-about-h1 {
+        font-size: 25px;
+      }
+      #ms-about-h2 {
+        font-size: 45px;
+        margin: 1.5rem 0;
+        letter-spacing: 4px;
+      }
+      .ms-about-p {
+        width: 70%;
+      }
+}

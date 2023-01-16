@@ -1,0 +1,246 @@
+header {
+    position: relative;
+}
+
+#ms-wholesale-banner {
+    width: 100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/0664/9744/6170/files/MS-BANNER-WHS-O2.jpg?v=1671630729");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#ms-wholesale-title {
+    padding-top: 15px;
+    border-top: 3px solid white;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+#ms-wholesale-title h1 {
+    color: white !important;
+}
+
+#ms-wholesale-text {
+    width: 100%;
+    text-align: justify;
+}
+
+.ms-whs-p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 3rem 0;
+    letter-spacing: 0.06rem;
+    line-height: calc(1 + .8 / 1.0);
+}
+
+.ms-whs-p a {
+    text-decoration: none;
+    color: #088a68;
+}
+
+#ms-whs-work {
+    align-items: center;
+    background-color: #f5ebe3;
+}
+
+#ms-whs-wh2 {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.ms-whs-wp {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.ms-whs-wbtn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    color: black !important;
+}
+
+.ms-whs-wbtn span {
+    font-weight: 500;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+
+.wp-1 {
+    margin-bottom: 2rem;
+}
+
+#ms-whs-knowmore {
+    background-color: #088a68;
+}
+
+#ms-whs-kh2 {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.ms-whs-kp {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    line-height: 30px;
+    margin: 2rem 0;
+    color: white;
+}
+
+.ms-whs-kp a {
+    text-decoration: none;
+    color: white !important;
+}
+
+@media screen and (max-width: 991px) {
+    .page-width--narrow {
+        padding: 0 !important;
+    }
+
+    #ms-wholesale-banner {
+        height: 300px;
+    }
+
+    #ms-wholesale-title {
+        margin: 48px 1.5rem;
+        font-size: 25px;
+    }
+
+    #ms-wholesale-text {
+        padding: 5rem 1.5rem;
+    }
+
+    .ms-whs-p {
+        font-size: 15px;
+    }
+
+    #ms-whs-work {
+        display: block;
+        padding: 5rem 0;
+    }
+
+    .ms-whs-wdiv {
+        width: 100%;
+    }
+
+    #ms-whs-wh2 {
+        padding: 3rem 1.5rem;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    .ms-whs-wp {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0 1.5rem;
+    }
+
+    .ms-whs-wbtn {
+        padding: 2rem 3rem;
+        margin: 3rem 1.5rem;
+    }
+
+    #ms-whs-knowmore {
+        padding: 0 1.5rem;
+    }
+
+    #ms-whs-ktitle {
+        padding: 5rem 0;
+    }
+
+    #ms-whs-kh2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .ms-whs-kp {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #ms-about {
+        margin: 5rem;
+    }
+
+    #ms-about-h1 {
+        font-size: 25px;
+    }
+
+    #ms-about-h2 {
+        font-size: 45px;
+        margin: 3rem 0;
+    }
+
+    .ms-about-p {
+        width: 70%;
+    }
+
+    /*++++++ WHOLESALE ++++++*/
+    #ms-wholesale-banner {
+        height: 450px;
+    }
+
+    #ms-wholesale-title {
+        margin: 48px 5rem;
+        font-size: 45px;
+    }
+
+    #ms-wholesale-text {
+        padding: 8rem 20rem;
+    }
+
+    .ms-whs-p {
+        font-size: 20px;
+    }
+
+    #ms-whs-work {
+        display: flex;
+        padding: 15rem 0;
+    }
+
+    .ms-whs-wdiv {
+        width: 50%;
+    }
+
+    #ms-whs-wh2 {
+        padding: 4rem 5rem;
+        line-height: 95px;
+        font-size: 45px;
+    }
+
+    .ms-whs-wp {
+        font-size: 20px;
+        line-height: 45px;
+        padding: 0 5rem;
+    }
+
+    .ms-whs-wbtn {
+        padding: 2rem 5rem;
+        margin: 3rem 5rem;
+    }
+
+    #ms-whs-knowmore {
+        padding: 0 5rem;
+    }
+
+    #ms-whs-ktitle {
+        padding: 10rem 0;
+    }
+
+    #ms-whs-kh2 {
+        font-size: 35px;
+    }
+
+    .ms-whs-kp {
+        font-size: 20px;
+    }
+
+}

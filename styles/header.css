@@ -9,6 +9,7 @@ header {
     width: inherit;
     margin: 0;
     padding: 0.8% 4%;
+    border-bottom: 2px solid rgb(250, 250, 250);
 }
 .cont-navbar {
     padding: 0;
