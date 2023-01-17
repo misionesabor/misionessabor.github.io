@@ -1,0 +1,68 @@
+header {
+    position: relative;
+}
+
+#ms-contact-fh1,
+#ms-contact-fh2 {
+    text-transform: uppercase;
+}
+
+.ms-contact-fp a {
+    color: black;
+}
+
+@media screen and (max-width: 991) {
+    #ms-contact-div {
+        margin: 4rem 1.5rem;
+    }
+
+    #ms-contact-fh1 {
+        font-size: 18px;
+        margin: 1rem 0;
+    }
+
+    #ms-contact-fh2 {
+        font-size: 25px;
+        margin: 2rem 0;
+        width: 80%;
+        line-height: 50px;
+    }
+
+    .ms-contact-formdiv {
+        margin: 3rem 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #ms-contact-div {
+        margin: 3rem 4%;
+    }
+
+    #ms-contact-fh1 {
+        font-size: 18px;
+        margin: 1rem 0;
+        font-weight: 700;
+    }
+
+    #ms-contact-fh2 {
+        font-size: 45px;
+        margin: 2rem 0;
+        width: 40%;
+        line-height: 60px;
+        font-weight: 700;
+    }
+
+    .ms-contact-fp {
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin: 1rem 0;
+    }
+
+    .ms-contact-formdiv {
+        margin: 3rem 5rem;
+        max-width: 60%important;
+        width: 60% !important;
+    }
+}
