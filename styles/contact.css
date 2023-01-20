@@ -7,6 +7,14 @@ header {
     text-transform: uppercase;
 }
 
+#ms-contact-fh1{
+    font-weight: 500;
+}
+
+#ms-contact-fh2{
+    font-weight: 700;
+}
+
 .ms-contact-fp a {
     color: black;
 }
@@ -17,12 +25,12 @@ header {
     }
 
     #ms-contact-fh1 {
-        font-size: 18px;
+        font-size: 20px;
         margin: 1rem 0;
     }
 
     #ms-contact-fh2 {
-        font-size: 25px;
+        font-size: 40px;
         margin: 2rem 0;
         width: 80%;
         line-height: 50px;
@@ -35,21 +43,19 @@ header {
 
 @media screen and (min-width: 992px) {
     #ms-contact-div {
-        margin: 3rem 4%;
+        margin: 4rem 4%;
     }
 
     #ms-contact-fh1 {
-        font-size: 18px;
-        margin: 1rem 0;
-        font-weight: 700;
+        font-size: 25px;
     }
 
     #ms-contact-fh2 {
         font-size: 45px;
-        margin: 2rem 0;
+        margin: 1.5rem 0;
         width: 40%;
-        line-height: 60px;
-        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 4px;
     }
 
     .ms-contact-fp {

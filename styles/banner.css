@@ -4,7 +4,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: lightgray;
+    background: url(../images/banner/MS-IMG-BANN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .ms-main-banner-divt {

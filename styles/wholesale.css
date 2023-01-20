@@ -2,6 +2,10 @@ header {
     position: relative;
 }
 
+#ms-wholesale-ban-color{
+    background-color: rgb(0,0,0,0.1);
+    height: 450px;
+}
 #ms-wholesale-banner {
     width: 100%;
     background-image: url("https://cdn.shopify.com/s/files/1/0664/9744/6170/files/MS-BANNER-WHS-O2.jpg?v=1671630729");
@@ -20,6 +24,10 @@ header {
 
 #ms-wholesale-title h1 {
     color: white !important;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 4px;
 }
 
 #ms-wholesale-text {
@@ -42,7 +50,9 @@ header {
 
 #ms-whs-work {
     align-items: center;
-    background-color: #f5ebe3;
+    background-image: url(../images/wholesale/ms-whs-products.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #ms-whs-wh2 {
@@ -189,29 +199,33 @@ header {
     }
 
     #ms-wholesale-title {
-        margin: 48px 5rem;
+        margin: 5rem;
         font-size: 45px;
     }
 
     #ms-wholesale-text {
-        padding: 8rem 20rem;
+        padding: 5rem 10%;
     }
 
     .ms-whs-p {
-        font-size: 20px;
+        font-size: 16px;
     }
 
-    #ms-whs-work {
+    .ms-whs-wcolor {
         display: flex;
-        padding: 15rem 0;
+        justify-content: space-between;
+        padding: 10rem 4%;
+        color: white;
+        background: linear-gradient(45deg, 
+        #2b4236e6, #ff860036);
     }
 
     .ms-whs-wdiv {
-        width: 50%;
+        width: 45%;
     }
 
     #ms-whs-wh2 {
-        padding: 4rem 5rem;
+        padding: 4rem 0;
         line-height: 95px;
         font-size: 45px;
     }
@@ -219,7 +233,6 @@ header {
     .ms-whs-wp {
         font-size: 20px;
         line-height: 45px;
-        padding: 0 5rem;
     }
 
     .ms-whs-wbtn {
@@ -228,7 +241,7 @@ header {
     }
 
     #ms-whs-knowmore {
-        padding: 0 5rem;
+        padding: 0 4%;
     }
 
     #ms-whs-ktitle {

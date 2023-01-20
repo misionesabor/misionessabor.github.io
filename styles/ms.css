@@ -5,6 +5,7 @@ body {
   font-family: 'Poppins', sans-serif!important;
   margin: 0;
   padding: 0;
+  background-color: #edeeed;
 }
 /*--------------------------------------*/
 /*------------ GLOBAL SCREEN  ----------*/
@@ -13,7 +14,9 @@ body {
   margin-bottom: 6rem;
 }
 /*+++++++++ PRODUCTS +++++++++*/
-  .product__media-toggle, .product__modal-opener .product__media-icon {
+  .product__media-toggle, 
+  .product__modal-opener 
+  .product__media-icon {
     display: none!important;
   }
 /*--------------------------------------*/
