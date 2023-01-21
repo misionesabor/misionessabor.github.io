@@ -4,23 +4,13 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: url(../images/banner/MS-IMG-BANN.jpg);
+    background: url(https://misionessabor.com/images/banner/MS-IMG-BANN.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-.ms-main-banner-divt {
-    margin-top: 3rem;
-    margin-left: 4%;
-    padding: 2rem 0;
-}
-
 .ms-main-banner-divt h1 {
     text-transform: uppercase;
-    font-size: 60px;
     font-weight: 700;
-    letter-spacing: 3px;
-    line-height: 100px;
     color: white;
 }
 
@@ -28,10 +18,33 @@
     .ms-main-banner-sect {
         margin-bottom: 3rem;
     }
+    .ms-main-banner {
+        background-position: right;
+    }
+    .ms-main-banner-divt {
+        margin-top: 3rem;
+        margin-left: 4%;
+        padding: 2rem 0;
+    }
+    .ms-main-banner-divt h1 {
+        font-size: 30px;
+        letter-spacing: 3px;
+        line-height: 50px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .ms-main-banner-sect {
         margin-bottom: 5rem;
+    }
+    .ms-main-banner-divt {
+        margin-top: 3rem;
+        margin-left: 4%;
+        padding: 2rem 0;
+    }
+    .ms-main-banner-divt h1 {
+        font-size: 60px;
+        letter-spacing: 3px;
+        line-height: 80px;
     }
 }
