@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: inherit;
     justify-content: space-between;
+    align-items: center;
 }
 .ms-main-prd-dvm{
     text-align: right;
@@ -27,6 +28,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
+    margin: 0;
 }
 .glide__arrow{
     background: none;
@@ -75,11 +77,15 @@
         width: 30%;
     }
     .ms-main-prd-avm{
-        padding: 10px 20px;
-        font-size: 15px;
+        padding: 10px 15px;
+        font-size: 11px;
     }
     .ms-main-prd-h2{
-        font-size: 20px;
+        font-size: 16px;
+    }
+    .glide__arrow svg {
+        height: 15px;
+        width: 15px;
     }
     .ms-glide-dcard {
         margin: 0 auto 35px;

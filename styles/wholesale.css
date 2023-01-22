@@ -1,7 +1,6 @@
 header {
     position: relative;
 }
-
 #ms-wholesale-ban-color{
     background-color: rgb(0,0,0,0.1);
     height: 450px;
@@ -13,7 +12,6 @@ header {
     background-size: cover;
     background-position: center;
 }
-
 #ms-wholesale-title {
     padding-top: 15px;
     border-top: 3px solid white;
@@ -21,7 +19,6 @@ header {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
 }
-
 #ms-wholesale-title h1 {
     color: white !important;
     font-weight: 600;
@@ -29,12 +26,9 @@ header {
     line-height: 70px;
     letter-spacing: 4px;
 }
-
 #ms-wholesale-text {
     width: 100%;
-    text-align: justify;
 }
-
 .ms-whs-p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -42,30 +36,25 @@ header {
     letter-spacing: 0.06rem;
     line-height: calc(1 + .8 / 1.0);
 }
-
 .ms-whs-p a {
     text-decoration: none;
     color: #088a68;
 }
-
 #ms-whs-work {
     align-items: center;
     background-image: url(../images/wholesale/ms-whs-products.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 #ms-whs-wh2 {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     margin: 0;
 }
-
 .ms-whs-wp {
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
-
 .ms-whs-wbtn {
     display: inline-flex;
     align-items: center;
@@ -73,21 +62,17 @@ header {
     background-color: white;
     color: black !important;
 }
-
 .ms-whs-wbtn span {
     font-weight: 500;
     padding-right: 2rem;
     text-transform: uppercase;
 }
-
 .wp-1 {
     margin-bottom: 2rem;
 }
-
 #ms-whs-knowmore {
     background-color: #088a68;
 }
-
 #ms-whs-kh2 {
     font-family: "Poppins", sans-serif;
     text-align: left;
@@ -95,7 +80,6 @@ header {
     text-transform: uppercase;
     color: white;
 }
-
 .ms-whs-kp {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
@@ -103,7 +87,6 @@ header {
     margin: 2rem 0;
     color: white;
 }
-
 .ms-whs-kp a {
     text-decoration: none;
     color: white !important;
@@ -113,63 +96,62 @@ header {
     .page-width--narrow {
         padding: 0 !important;
     }
-
     #ms-wholesale-banner {
         height: 300px;
     }
-
+    #ms-wholesale-ban-color {
+        height: 300px;
+    }
     #ms-wholesale-title {
-        margin: 48px 1.5rem;
-        font-size: 25px;
+        margin: 48px 4%;
     }
-
+    #ms-wholesale-title h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
     #ms-wholesale-text {
-        padding: 5rem 1.5rem;
+        padding: 1rem 4%;
     }
-
     .ms-whs-p {
         font-size: 15px;
+        margin: 2rem 0;
     }
-
     #ms-whs-work {
         display: block;
-        padding: 5rem 0;
     }
-
+    .ms-whs-wcolor {
+        color: white;
+        background: linear-gradient(45deg, 
+        #2b4236e6, #ff860036);
+        padding: 2rem 0;
+    }
     .ms-whs-wdiv {
         width: 100%;
     }
-
     #ms-whs-wh2 {
-        padding: 3rem 1.5rem;
+        padding: 2rem 1.5rem;
         line-height: 40px;
-        font-size: 20px;
+        font-size: 22px;
     }
-
     .ms-whs-wp {
         font-size: 15px;
         line-height: 30px;
-        padding: 0 1.5rem;
+        padding: 0 4%;
     }
-
     .ms-whs-wbtn {
-        padding: 2rem 3rem;
+        padding: 1rem;
         margin: 3rem 1.5rem;
     }
-
     #ms-whs-knowmore {
         padding: 0 1.5rem;
     }
-
     #ms-whs-ktitle {
-        padding: 5rem 0;
+        padding: 3rem 0;
     }
-
     #ms-whs-kh2 {
         font-size: 20px;
         line-height: 40px;
     }
-
     .ms-whs-kp {
         font-size: 15px;
     }
@@ -179,38 +161,29 @@ header {
     #ms-about {
         margin: 5rem;
     }
-
     #ms-about-h1 {
         font-size: 25px;
     }
-
     #ms-about-h2 {
         font-size: 45px;
         margin: 3rem 0;
     }
-
     .ms-about-p {
         width: 70%;
     }
-
-    /*++++++ WHOLESALE ++++++*/
     #ms-wholesale-banner {
         height: 450px;
     }
-
     #ms-wholesale-title {
         margin: 5rem;
         font-size: 45px;
     }
-
     #ms-wholesale-text {
         padding: 5rem 10%;
     }
-
     .ms-whs-p {
         font-size: 16px;
     }
-
     .ms-whs-wcolor {
         display: flex;
         justify-content: space-between;
@@ -219,41 +192,32 @@ header {
         background: linear-gradient(45deg, 
         #2b4236e6, #ff860036);
     }
-
     .ms-whs-wdiv {
         width: 45%;
     }
-
     #ms-whs-wh2 {
         padding: 4rem 0;
         line-height: 95px;
         font-size: 45px;
     }
-
     .ms-whs-wp {
         font-size: 20px;
         line-height: 45px;
     }
-
     .ms-whs-wbtn {
         padding: 2rem 5rem;
-        margin: 3rem 5rem;
+        margin: 3rem 0;
     }
-
     #ms-whs-knowmore {
         padding: 0 4%;
     }
-
     #ms-whs-ktitle {
         padding: 10rem 0;
     }
-
     #ms-whs-kh2 {
         font-size: 35px;
     }
-
     .ms-whs-kp {
         font-size: 20px;
     }
-
 }

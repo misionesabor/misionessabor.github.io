@@ -15,7 +15,7 @@ header {
     padding: 0;
 }
 .navbar-toggler {
-    border: 1px solid rgb(240, 240, 240);
+    border: none;
 }
 .navbar-toggler:focus {
     box-shadow: none; 
@@ -37,11 +37,43 @@ header {
         margin: 0.7rem 0!important;
         padding: 0;
         font-size: 13px;
-    }    
+    }
+    .navbar-collapse {
+        height: 100vh;
+    } 
+    .customer-service {
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+    .customer-service__wrapper a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        padding-bottom: 1rem;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .customer-service-title {
+        font-weight: 500;
+        font-size: 16px;
+        color: black;
+        margin: 1rem 0;
+    } 
+    .social-contact {
+        margin: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 30%;
+        justify-content: space-between;
+    }  
 }
 @media screen and (min-width: 992px) {
     .nav-link {
         font-size: 15px;
         padding: 0 20px!important;
-    }    
+    }   
+    .customer-service, .social-contact {
+        display: none;
+    } 
 }

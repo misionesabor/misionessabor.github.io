@@ -33,6 +33,7 @@ header{
       }
       .ms-about-p {
         width: 100%;
+        margin: 1rem 0;
       }
 }
 
