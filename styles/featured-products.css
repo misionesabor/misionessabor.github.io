@@ -1,0 +1,144 @@
+
+.ms-main-prd-divtc{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ms-main-prd-dh2{
+    display: flex;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+.ms-main-prd-dvm{
+    text-align: right;
+}
+.ms-main-prd-avm{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #088a68;
+    font-weight: 500;
+}
+.ms-main-prd-avm:hover{
+    color: white;
+    background-color: #36af8f;
+}
+.ms-main-prd-h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.glide__arrow{
+    background: none;
+    border: none;
+}
+.glide__arrow svg:hover {
+    opacity: 0.5;
+}
+.ms-glide-dcard:hover, .ms-glide-dcard:focus-within {
+    box-shadow: 0 11px 20px #00000026;
+    transition: .2s;
+}
+.glide__slide a{
+    text-decoration: none;
+    color: black;
+}
+.ms-glide-img {
+    width: 100%;
+    height: auto;
+}
+.ms-glide-prd-dh3{
+    background-color: white;
+    text-align: center;
+}
+.ms-glide-prd-dh3 h3{
+    font-weight: 500;
+}
+.ms-glide-prd-dh3 h4{
+    font-weight: 400;
+}
+.ms-glide-prd-dh3 p{
+    font-weight: 300;
+}
+
+@media screen and (max-width: 991px) {
+    .ms-main-products-sect{
+        margin: 0 4% 5rem 4%;
+    }
+    .ms-main-prd-divtc{
+        margin: 2rem 0;
+    }
+    .ms-main-prd-dh2{
+        width: 70%;
+    }
+    .ms-main-prd-dvm{
+        width: 30%;
+    }
+    .ms-main-prd-avm{
+        padding: 10px 15px;
+        font-size: 11px;
+    }
+    .ms-main-prd-h2{
+        font-size: 16px;
+    }
+    .glide__arrow svg {
+        height: 15px;
+        width: 15px;
+    }
+    .ms-glide-dcard {
+        margin: 0 auto 35px;
+    }
+    .ms-glide-prd-dh3{
+        padding: 1rem 0 1rem 0;
+    }
+    .ms-glide-prd-dh3 h3{
+        font-size: 17px;
+    }
+    .ms-glide-prd-dh3 h4{
+        font-size: 15px;
+    }
+    .ms-glide-prd-dh3 p{
+        font-size: 14px;
+        margin: 1rem 0 0 0;
+    }    
+}
+
+@media screen and (min-width: 992px) {
+    .ms-main-products-sect{
+        margin: 0 4% 5rem 4%;
+    }
+    .ms-main-prd-divtc{
+        margin: 2rem 0;
+    }
+    .ms-main-prd-dh2{
+        width: 40%;
+    }
+    .ms-main-prd-dvm{
+        width: 60%;
+    }
+    .ms-main-prd-avm{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    .ms-main-prd-h2{
+        font-size: 25px;
+    }
+    .ms-glide-dcard {
+        margin: 0 auto 35px;
+    }
+    .ms-glide-prd-dh3{
+        padding: 1rem 0 1rem 0;
+    }
+    .ms-glide-prd-dh3 h3{
+        font-size: 17px;
+    }
+    .ms-glide-prd-dh3 h4{
+        font-size: 15px;
+    }
+    .ms-glide-prd-dh3 p{
+        font-size: 14px;
+        margin: 1rem 0 0 0;
+    }
+}
