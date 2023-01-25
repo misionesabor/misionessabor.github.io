@@ -1,6 +1,5 @@
 // new Glide('.glide').mount();
-
-var glide = new Glide('.glide', {
+var glide = new glide('.glide', {
     perView: 4,
     type: "carousel",
     autoplay: 3000,

@@ -1,6 +1,6 @@
 #ms-shop-maindiv {
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 20% 80%;
 }
 .ms-shop-navdiv {
     height: 100vh;
@@ -41,10 +41,9 @@
     display: inline-block;
     margin-left: 1rem;
 }
-
 .ms-shop-divall {
     background-color: rgb(239, 239, 239);
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
 }
 .ms-shop-divall h1 {
     text-transform: uppercase;
@@ -52,3 +51,57 @@
     letter-spacing: 2px;
     font-size: 20px;
 } 
+.ms-shop-ul {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 24px;
+}
+.ms-shop-li {
+    height: auto;
+}
+.ms-shop-li:hover, .ms-shop-li:focus-within {
+    box-shadow: 0 11px 20px #00000026;
+    transition: .2s;
+}
+.ms-shop-li a {
+    text-decoration: none;
+    color: black;
+}
+.ms-shop-img {
+    width: 100%;
+    height: auto;
+}
+.ms-shop-info {
+    background-color: white;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+.ms-shop-info h1 {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.ms-shop-info h2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.ms-shop-info p {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
