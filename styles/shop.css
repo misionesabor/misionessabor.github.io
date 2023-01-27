@@ -1,14 +1,15 @@
 #ms-shop-maindiv {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 80%;
 }
 .ms-shop-navdiv {
-    height: 100vh;
+    height: 100%;
     background-color: white;
     position: relative;
 }
 .ms-shop-divfilter {
     padding: 1rem 2rem;
+    /* position: fixed; */
 }
 .ms-shop-divfilter h2 {
     font-size: 18px;
@@ -56,7 +57,7 @@
     margin: 2rem 0;
     padding: 0;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 .ms-shop-li {
@@ -83,7 +84,7 @@
 .ms-shop-info h1 {
     font-size: 17px;
     font-weight: 500;
-    text-transform: capitalize;
+    text-transform: none;
     letter-spacing: 1px;
 }
 .ms-shop-info h2 {
