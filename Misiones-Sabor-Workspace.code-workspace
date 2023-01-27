@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Misiones-Sabor-App"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "misionessabor.github.io"
+	}
+}
