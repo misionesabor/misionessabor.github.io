@@ -2,54 +2,40 @@
     margin: 0;
     padding: 0;
 }
+header{
+    position: relative;
+}
 #ms-product-tmp-div{
     display: grid;
-    grid-template-columns: auto auto;
 }
 .ms-prd-img img{
     width: auto;
-    height: 100vh;
 }
 .ms-product-dta{
     height: auto;
     width: 100%;
-    padding: 3rem 5rem;
 }
 .ms-product-divcontent {
     border-top: 4px solid #000;
 }
 .ms-prd-h1{
-    margin: 2rem 0;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 46px;
 }
-
 .ms-prd-price{
-    font-size: 22px;
-    margin: 2rem 0;
-}
-
-.ms-prd-h2{
-    font-size: 21px;
     font-weight: 600;
-    padding-bottom: 5px;
 }
-
+.ms-prd-h2{
+    font-weight: 600;
+}
 .ms-prd-p{
     letter-spacing: 1px;
     line-height: 25px;
     margin-bottom: 2rem;
 }
-
 .ms-prd-drop-title{
     color: black;
-    font-size: 20px;
-    padding-left: 1rem;
 }
-
 .ms-prd-drop-div{
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +50,6 @@
     align-items: center;
 }
 .ms-prd-drop-div i{
-    font-size: 20px;
     color: #000;
 }
 .collapsible{
@@ -78,8 +63,82 @@
     display: block;
     text-decoration: none;
 }
-
 .ms-prd-drop-content{
     display: none;
     padding: 1rem 0;
 } 
+
+@media screen and (max-width: 991px) {
+    #ms-product-tmp-div{
+        grid-template-columns: auto;
+    }
+    .ms-prd-img img{
+        height: auto;
+        width: 100%;
+    }
+    .ms-product-dta{
+        padding: 3rem 4%;
+    }
+    .ms-prd-h1{
+        margin: 2rem 0;
+        letter-spacing: 2px;
+        font-size: 26px;
+    }
+    .ms-prd-price{
+        font-size: 19px;
+        margin: 2rem 0;
+    }
+    .ms-prd-h2{
+        font-size: 20px;
+        margin: 1rem 0;
+    }
+    .ms-prd-p{
+        font-size: 15px;
+        margin: 1.5rem 0;
+    }
+    .ms-prd-drop-title{
+        font-size: 17px;
+        padding-left: 1rem;
+    }
+    .ms-prd-drop-div i{
+        font-size: 17px;
+    }
+    .ms-prd-drop-content{
+        padding: 0.5rem 0;
+    } 
+}
+@media screen and (min-width: 992px) {
+    #ms-product-tmp-div{
+        grid-template-columns: auto auto;
+    }
+    .ms-prd-img img{
+        height: 100vh;
+    }
+    .ms-product-dta{
+        padding: 3rem 5rem;
+    }
+    .ms-prd-h1{
+        margin: 2rem 0;
+        letter-spacing: 2px;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .ms-prd-price{
+        font-size: 22px;
+        margin: 2rem 0;
+    }
+    .ms-prd-h2{
+        font-size: 21px;
+        padding-bottom: 5px;
+    }
+    .ms-prd-drop-title{
+        font-size: 20px;
+        padding-left: 1rem;
+    }
+    .ms-prd-drop-div i{
+        font-size: 20px;
+    }
+    .ms-prd-drop-content{
+        padding: 1rem 0;
+    } 
+}
