@@ -37,6 +37,10 @@
 .glide__arrow svg:hover {
     opacity: 0.5;
 }
+.ms-glide-dcard img {
+    width: 100%!important;
+    height: auto!important;
+}
 .ms-glide-dcard:hover, .ms-glide-dcard:focus-within {
     box-shadow: 0 11px 20px #00000026;
     transition: .2s;
