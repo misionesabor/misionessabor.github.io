@@ -63,7 +63,7 @@ header {
     display: block;
     text-decoration: none;
 }
-.active, .collapsible:hover {
+.collapsible:hover {
     background-color: #E0F8EC;
   }
 .content {
