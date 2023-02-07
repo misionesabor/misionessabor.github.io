@@ -2,12 +2,12 @@ h1, h2, h3, p {
     font-family: 'Poppins', sans-serif;
 }
 .ms-shop-divall {
-    background-color: rgb(239, 239, 239);
+    background-color: rgb(243, 243, 243);
     padding: 2rem 4%;
 }
 .ms-shop-divh1 {
     margin: 2rem 0;
-    border-bottom: 4px solid rgb(107, 107, 107);
+    border-bottom: 4px solid rgb(0, 0, 0);
     padding: 1rem 0;
 }
 .ms-shop-divh1 h1 {
