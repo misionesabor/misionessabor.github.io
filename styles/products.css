@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
+header {
+    position: relative!important;
 }
+
 #ms-product-tmp-div{
     display: grid;
 }
