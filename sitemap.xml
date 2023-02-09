@@ -1,62 +1,63 @@
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <sitemap>
-        <loc>https://misionessabor.com/index</loc>
-    </sitemap>
-    <sitemap>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.urls.org/schemas/url/0.9">
+    <url>
+        <loc>https://misionessabor.com</loc>
+    </url>
+    <url>
         <loc>https://misionessabor.com/pages/shop</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://misionessabor.com/pages/about</loc>
-    </sitemap>    
-    <sitemap>
+    </url>    
+    <url>
         <loc>https://misionessabor.com/pages/contact</loc>
-    </sitemap>        
-    <sitemap>
+    </url>        
+    <url>
         <loc>https://misionessabor.com/pages/wholesale</loc>
-    </sitemap>     
-    <sitemap>
+    </url>     
+    <url>
         <loc>https://misionessabor.com/pages/maintenance</loc>
-    </sitemap>   
-    <sitemap>
+    </url>   
+    <url>
         <loc>https://misionessabor.com/products/carqueja</loc>
-    </sitemap>   
-    <sitemap>
+    </url>   
+    <url>
         <loc>https://misionessabor.com/products/flor-de-piedra</loc>
-    </sitemap>         
-    <sitemap>
+    </url>         
+    <url>
         <loc>https://misionessabor.com/products/hojas-de-mora</loc>
-    </sitemap>      
-    <sitemap>
+    </url>      
+    <url>
         <loc>https://misionessabor.com/products/isipo-mil-hombres</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://misionessabor.com/products/lapacho-colorado</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://misionessabor.com/products/malva-blanca</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://misionessabor.com/products/marcela</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://misionessabor.com/products/muerdago</loc>
-    </sitemap>       
-    <sitemap>
+    </url>       
+    <url>
         <loc>https://misionessabor.com/products/stevia</loc>
-    </sitemap>
-    <sitemap>
+    </url>
+    <url>
         <loc>https://misionessabor.com/products/verbena</loc>
-    </sitemap>     
-    <sitemap>
-        <loc>https://misionessabor.com/products/terms-of-service</loc>
-    </sitemap>
-    <sitemap>
-        <loc>https://misionessabor.com/products/privacy-policy</loc>
-    </sitemap>
-    <sitemap>
-        <loc>https://misionessabor.com/products/refund-policy</loc>
-    </sitemap>
-    <sitemap>
-        <loc>https://misionessabor.com/products/shipping-policy</loc>
-    </sitemap>
-</sitemapindex>
+    </url>     
+    <url>
+        <loc>https://misionessabor.com/policies/terms-of-service</loc>
+    </url>
+    <url>
+        <loc>https://misionessabor.com/policies/privacy-policy</loc>
+    </url>
+    <url>
+        <loc>https://misionessabor.com/policies/refund-policy</loc>
+    </url>
+    <url>
+        <loc>https://misionessabor.com/policies/shipping-policy</loc>
+    </url>
+</urlset>
