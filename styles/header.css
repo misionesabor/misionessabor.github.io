@@ -26,7 +26,7 @@ header {
 }
 .nav-link {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 500!important;
     letter-spacing: 1px;
 }
 @media screen and (max-width: 991px) {
@@ -70,7 +70,7 @@ header {
 }
 @media screen and (min-width: 992px) {
     .nav-link {
-        font-size: 15px;
+        font-size: 15px!important;
         padding: 0 20px!important;
     }   
     .customer-service, .social-contact {
