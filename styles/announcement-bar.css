@@ -19,6 +19,6 @@
 }
 @media screen and (min-width: 992px){
     .ms-anbar-message {
-        font-size: 12px;
+        font-size: 12px!important;
     }  
 }
