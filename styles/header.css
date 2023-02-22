@@ -8,7 +8,7 @@ header {
     background-color: white;
     width: inherit;
     margin: 0;
-    padding: 2.8% 4%;
+    padding: 0.8% 4%;
     border-bottom: 2px solid rgb(250, 250, 250);
 }
 .cont-navbar {
@@ -32,6 +32,9 @@ header {
 @media screen and (max-width: 991px) {
     header {
         position: relative;
+    }
+    .navbar {
+        padding: 2.8% 4%;
     }
     .navbar-nav {
         padding: 1rem 0;
