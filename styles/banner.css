@@ -20,14 +20,14 @@
     }
     .ms-main-banner {
         background-position: right;
+        height: 450px;
     }
     .ms-main-banner-divt {
-        margin-top: 3rem;
-        margin-left: 4%;
-        padding: 2rem 0;
+        margin: 1rem 4%;
+        padding: 0;
     }
     .ms-main-banner-divt h1 {
-        font-size: 30px;
+        font-size: 35px;
         letter-spacing: 3px;
         line-height: 50px;
     }
