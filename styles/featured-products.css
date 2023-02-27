@@ -87,6 +87,9 @@
     .ms-main-prd-h2{
         font-size: 16px;
     }
+    #ms-main-glide {
+        display: none;
+    }
     .glide__arrow svg {
         height: 15px;
         width: 15px;

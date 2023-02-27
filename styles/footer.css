@@ -35,7 +35,7 @@
     .accordion-li a {
       text-decoration: none;
       color: white;
-      font-size: 12px;
+      font-size: 13px;
     }
     /* base-details-summary */
     summary {
@@ -100,6 +100,7 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      justify-content: space-between;
     }
 }
 @media screen and (min-width: 992px){
@@ -134,7 +135,7 @@
       .gp-footer a {
         color: #fff;
         text-decoration: none;
-          font-size: 12px;
+        font-size: 13px;
       }
       .gp-footer a:hover {
         color: rgb(28, 198, 28);
