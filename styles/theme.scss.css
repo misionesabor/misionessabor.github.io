@@ -2,6 +2,25 @@
 .list-view-item__image-wrapper img {
     max-width: 100% !important;
 }
+.page-container {
+    transition: all .4s cubic-bezier(.29, .63, .44, 1);
+    position: relative;
+    overflow: hidden
+}
+
+@media only screen and (min-width: 750px) {
+    .page-container {
+        -ms-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translateZ(0)
+    }
+}
+.js-drawer-open .drawer-page-content:after {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto
+}
+
 .slick-slider {
     position: relative;
     display: block;
@@ -266,9 +285,8 @@
 }
 
 body {
-    margin: 0
+    margin: 0;
 }
-
 article,
 aside,
 details,
@@ -416,7 +434,6 @@ textarea {
     display: table;
     clear: both
 }
-
 @media only screen and (max-width: 749px) {
     .grid {
         margin-left: 0
@@ -1996,7 +2013,6 @@ symbol.icon:not(.icon--full-color) .icon-error__symbol {
     margin-top: .1em;
     flex-shrink: 0
 }
-
 ul,
 ol {
     margin: 0;
@@ -2048,11 +2064,6 @@ ol {
     list-style: square outside
 }
 
-.rte a:not(.btn) {
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 1px
-}
-
 .text-center.rte ul,
 .text-center.rte ol,
 .text-center .rte ul,
@@ -2070,17 +2081,6 @@ ol {
 a {
     color: #000;
     text-decoration: none
-}
-
-a:not([disabled]):hover,
-a:focus {
-    color: #404040
-}
-
-.password-powered-by a:not([disabled]):hover,
-.password-powered-by a:focus {
-    color: #404040;
-    border-bottom: 1px solid #404040
 }
 
 a[href^=tel] {
@@ -3073,19 +3073,7 @@ body.prevent-scrolling {
     margin-bottom: 90px
 }
 
-.page-container {
-    transition: all .4s cubic-bezier(.29, .63, .44, 1);
-    position: relative;
-    overflow: hidden
-}
 
-@media only screen and (min-width: 750px) {
-    .page-container {
-        -ms-transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translateZ(0)
-    }
-}
 
 hr {
     margin: 72px 0;
@@ -3320,11 +3308,7 @@ hr {
     transition: all .4s cubic-bezier(.29, .63, .44, 1)
 }
 
-.js-drawer-open .drawer-page-content:after {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto
-}
+
 
 .drawer__title,
 .drawer__close {
