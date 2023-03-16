@@ -7,7 +7,7 @@ header {
 }
 #ms-wholesale-banner {
     width: 100%;
-    background-image: url("https://cdn.shopify.com/s/files/1/0664/9744/6170/files/MS-BANNER-WHS-O2.jpg?v=1671630729");
+    background-image: url("https://misionessabor.com/images/wholesale/MS-BANNER-WHS-O2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -38,11 +38,11 @@ header {
 }
 .ms-whs-p a {
     text-decoration: none;
-    color: #088a68;
+    color: #06654D;
 }
 #ms-whs-work {
     align-items: center;
-    background-image: url(../images/wholesale/ms-whs-products.jpg);
+    background-image: url("https://misionessabor.com/images/wholesale/ms-whs-products.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -71,7 +71,7 @@ header {
     margin-bottom: 2rem;
 }
 #ms-whs-knowmore {
-    background-color: #088a68;
+    background-color: #06654D;
 }
 #ms-whs-kh2 {
     font-family: "Poppins", sans-serif;
