@@ -21,7 +21,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 1 | Términos de la tienda en línea
       </h2>
@@ -50,7 +50,7 @@
 
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 2 | Condiciones Generales
       </h2>
@@ -88,7 +88,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 3 | Exactitud, Exhaustividad y Actualidad de la Información
       </h2>
@@ -112,7 +112,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 4 | Modificaciónes en el servicio y precios
       </h2>
@@ -136,7 +136,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 5 | Productos o Servicios
       </h2>
@@ -182,7 +182,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 6 | Precisión de la facturación y la información de la cuenta.
       </h2>
@@ -226,7 +226,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 7 | Herramientas Opcionales
       </h2>
@@ -261,7 +261,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 8 | Enlaces de Terceros
       </h2>
@@ -294,7 +294,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 9 | Comentarios de Usuarios, Opiniones y otros Envíos
       </h2>
@@ -339,7 +339,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 10 | Información Personal
       </h2>
@@ -358,7 +358,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 11 | Errores, Inexactitudes y Omisiones.
       </h2>
@@ -394,7 +394,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 12 | Usos Prohibidos
       </h2>
@@ -426,7 +426,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 13 | Renuncia de Garantías; Limitación de Responsabilidad
       </h2>
@@ -472,7 +472,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 14 | Indemnización
       </h2>
@@ -492,7 +492,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 15 | Divisibilidad
       </h2>
@@ -513,7 +513,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 16 | Terminación
       </h2>
@@ -549,7 +549,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 17 | Acuerdo Completo
       </h2>
@@ -582,7 +582,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 18 | Ley que Rige
       </h2>
@@ -599,7 +599,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 19 | Cambios en los términos de servicio
       </h2>
@@ -632,7 +632,7 @@
 <div class="ms-poly-margin">
   <a class="collapsible">
     <div class="ms-poly-dropcontent ms-collapsible">
-      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg"></img> 
+      <img src="https://misionessabor.com/images/icons/chevron-down-solid.svg" width"25" height"25"></img> 
       <h2 class="ms-poly-title">
         Sección 20 | Información de Contacto
       </h2>
