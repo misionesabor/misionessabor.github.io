@@ -27,6 +27,7 @@
     }
     .accordion-ul {
       padding-left: 0!important;
+      margin: 0!important;
     }
     .accordion-li {
       list-style: none!important;
@@ -147,6 +148,7 @@
         color: #fff;
           text-transform: uppercase;
           margin-top: 0!important;
+          font-weight: 500!important;
       }
       .gp-footer .address {
           margin-top: 48px;
