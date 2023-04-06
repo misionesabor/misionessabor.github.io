@@ -1,7 +1,6 @@
 header {
     position: relative!important;
 }
-
 .shopify-policy__container {
     width: 100% !important;
     max-width: 100% !important;
@@ -14,8 +13,6 @@ header {
     text-transform: uppercase;
     margin: 5rem 0 2.5rem 0;
     font-weight: 700;
-    letter-spacing: 2px;
-    line-height: 70px;
 }
 .shopify-policy__body {
     border-top: 3px solid black;
@@ -72,10 +69,8 @@ header {
     overflow: hidden;
     background-color: #F0F0F0;
 }
-
 @media screen and (max-width: 991px) {
     .shopify-policy__title {
-        padding: 0 1.5rem;
         width: 90%;
     }
     .shopify-policy__title h1 {
@@ -98,7 +93,6 @@ header {
         padding: 10px;
     }
 }
-
 @media screen and (min-width: 992px) {
     .shopify-policy__title {
         width: 45%;
@@ -106,6 +100,7 @@ header {
     .shopify-policy__title h1 {
         line-height: 70px;
         font-size: 45px;
+        margin: 5rem 0 2.5rem 0;
     }
     .ms-poly-title {
         font-size: 18px;
