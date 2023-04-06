@@ -81,6 +81,8 @@ header {
     .shopify-policy__title h1 {
         line-height: 50px;
         font-size: 25px;
+        margin: 1rem;
+        line-height: 25px;
     }
     .shopify-policy__body {
         margin: 0 1.5rem;
