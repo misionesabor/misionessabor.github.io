@@ -74,15 +74,16 @@ header {
         width: 90%;
     }
     .shopify-policy__title h1 {
-        line-height: 50px;
         font-size: 25px;
         margin: 1rem;
         line-height: 25px;
     }
+    .ms-poly-dropcontent img {
+        margin: 0 1rem!important;
+    }
     .ms-poly-title {
         font-size: 15px;
-        margin: 1rem 0;
-        margin: 1rem;
+        margin: 1rem 0!important;
         line-height: 25px;
     }
     .ms-poly-p {
